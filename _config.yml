@@ -11,6 +11,9 @@ title                    : "Tino Good"
 title_separator          : "-"
 name                     : "Tino Good"
 description              : "Personal website."
+purpose                  : "Hi! I created this website to share my experience and insights mainly regarding data science and visualisation with R and other topics I care about. By sharing with others---
+whether one finds and reads my page or not---I at least hope to create a archive for myself to not forget about things I actually learned some months ago but again forgot about because I
+don't use them day by day."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -18,9 +21,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : tinogood # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -28,6 +31,30 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : "light" # "light" (default), "dark"
+
+# set defaults for posts etc
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: false
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+    header:
+      image:
 
 # SEO Related
 google_site_verification :
@@ -65,7 +92,7 @@ google_ad_slot           :
 author:
   name             : "Tino Good"
   avatar           : "bio-photo.jpg"
-  bio              : "Student and research assistant at University of St. Gallen."
+  bio              : "Student and research assistant at University of St.Gallen.</br>Co-worker at IKEA St.Gallen."
   location         : "Herisau, Switzerland"
   email            :
   uri              :
