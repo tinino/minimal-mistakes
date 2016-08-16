@@ -14,7 +14,7 @@ description              : "Personal website."
 purpose                  : "Hi! I created this website to share my experience and insights mainly regarding data science and visualisation with R and other topics I care about. By sharing with others---
 whether one finds and reads my page or not---I at least hope to create a archive for myself to not forget about things I actually learned some months ago but again forgot about because I
 don't use them day by day."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://tinogood.ch" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
