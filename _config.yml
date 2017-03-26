@@ -14,11 +14,11 @@ description              : "Personal website."
 purpose                  : "Hi! I created this website to share my experience and insights mainly regarding data science and visualisation with R and other topics I care about. By sharing with others---
 whether one finds and reads my page or not---I at least hope to create a archive for myself to not forget about things I actually learned some months ago but again forgot about because I
 don't use them day by day."
-url                      : "http://tinogood.ch" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://tinogood.ch"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs            : true # true, false (default)
+breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
@@ -209,12 +209,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+  #type: liquid
+  #path: /categories/
+#tag_archive:
+  #type: liquid
+  #path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
