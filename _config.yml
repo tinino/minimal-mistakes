@@ -11,8 +11,8 @@ title                    : "Tino Good"
 title_separator          : "-"
 name                     : "Tino Good"
 description              : "Personal website."
-purpose                  : "Hi! I created this website to share my experience and insights mainly regarding data science and visualisation with R and other topics I care about. By sharing with others---
-whether one finds and reads my page or not---I at least hope to create a archive for myself."
+purpose                  : "Hi! I created this website to share my experience and insights mainly regarding data analysis and visualisation with R and other topics I care about. By sharing with others---
+whether one finds and reads this page or not---I at least hope to create a archive for myself."
 url                      : "http://tinogood.ch"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -91,7 +91,7 @@ google_ad_slot           :
 author:
   name             : "Tino Good"
   avatar           : "bio-photo.png"
-  bio              : "Student and research assistant at University of St.Gallen."
+  bio              : "Research assistant at Swiss National Bank."
   location         : "Winterthur, Switzerland"
   email            :
   uri              :
