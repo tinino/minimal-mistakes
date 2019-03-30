@@ -5,10 +5,7 @@ category:
 - "labelr"
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-labelr
 
-======
 
 The goal of labelr is to make labelling data frames easier. Think of using different labels in `ggplot2` because of different languages or because of a different audience. Or just because you want to keep things more dynamic.
 
