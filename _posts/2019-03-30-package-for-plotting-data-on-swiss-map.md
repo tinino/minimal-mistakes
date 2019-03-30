@@ -35,8 +35,9 @@ ggplot(data = make_layer_data(agg_level = "GDNR"),
 #> Loading required package: sp
 #> Regions defined for each Polygons
 ```
-
-![](https://github.com/tinino/suistats/tree/master/man/figures/README-unnamed-chunk-1-1.png)
+<a href="https://github.com/tinino/suistats/tree/master/man/figures/README-unnamed-chunk-1-1.png">
+<img src="https://github.com/tinino/suistats/tree/master/man/figures/README-unnamed-chunk-1-1.png" width="100%" />
+</a>
 
 Plot districts:
 
@@ -49,5 +50,6 @@ ggplot(data = make_layer_data(agg_level = "BZNR"),
   coord_equal()
 #> Regions defined for each Polygons
 ```
-
-![](https://github.com/tinino/suistats/tree/master/man/figures/README-unnamed-chunk-2-1.png)
+<a href="https://github.com/tinino/suistats/tree/master/man/figures/README-unnamed-chunk-2-1.png">
+<img src="https://github.com/tinino/suistats/tree/master/man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+</a>
