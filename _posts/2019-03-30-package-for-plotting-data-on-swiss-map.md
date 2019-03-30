@@ -17,6 +17,7 @@ You can install it with:
 ``` r
 devtools::install_github("tinino/suistats")
 ```
+Find the repo here: [https://github.com/tinino/suistats](https://github.com/tinino/suistats)
 
 Example
 -------

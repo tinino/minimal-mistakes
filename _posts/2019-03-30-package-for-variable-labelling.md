@@ -18,6 +18,8 @@ You can install it like this (not on CRAN):
 devtools::install_github("tinino/labelr")
 ```
 
+Find the repo here: [https://github.com/tinino/labelr](https://github.com/tinino/labelr)
+
 How to use `labelr`
 -------------------
 
